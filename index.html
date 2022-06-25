@@ -5,9 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Momentum App</title>
-    <script src="main.js" defer></script>
+    <script src="js/greetings.js" defer></script>
+    <script src="js/clock.js" defer></script>
+    <script src="js/quotes.js" defer></script>
+    <script src="js/background.js" defer></script>
 </head>
 
 <body>
@@ -17,7 +20,17 @@
             <input id="name-input" required maxlength="15" type="text" autofocus>
         </form>
     </div>
-    <h1 id="greeting" class="hidden"></h1>
+    <div class="page hidden">
+        <div id="temp1"></div>
+        <div id="temp2"></div>
+        <h2 id="clock"></h2>
+        <h1 id="greeting"></h1>
+        <div id="temp3"></div>
+        <div id="quote">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
 </body>
 
 </html>

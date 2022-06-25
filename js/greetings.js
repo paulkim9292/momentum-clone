@@ -5,13 +5,14 @@ const loginForm = document.querySelector("#input-wrapper");
 const loginInput = document.querySelector("#name-input")
 const loginQuestion = document.querySelector("#question")
 const greeting = document.querySelector("#greeting");
+const mainPage = document.querySelector(".page");
 
 const HIDDEN_CLASSNAME = "hidden";
 const USERNAME_KEY = "username";
 
 function paintGreetings(username) {
     greeting.innerText = `Hello, ${username}.`;
-    greeting.classList.remove(HIDDEN_CLASSNAME);
+    mainPage.classList.remove(HIDDEN_CLASSNAME);
 }
 
 const savedUsername = localStorage.getItem(USERNAME_KEY);
