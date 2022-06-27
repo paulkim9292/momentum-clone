@@ -11,6 +11,8 @@
     <script src="js/clock.js" defer></script>
     <script src="js/quotes.js" defer></script>
     <script src="js/background.js" defer></script>
+    <script src="js/todo.js" defer></script>
+    <script src="js/weather.js" defer></script>
 </head>
 
 <body>
@@ -21,11 +23,20 @@
         </form>
     </div>
     <div class="page hidden">
-        <div id="temp1"></div>
-        <div id="temp2"></div>
+        <div id="weather">
+            <span></span>
+            <span></span>
+        </div>
+        <div id="free-space"></div>
         <h2 id="clock"></h2>
         <h1 id="greeting"></h1>
-        <div id="temp3"></div>
+        <div class="todo">
+            <form id="todo-form">
+                <input type="text" placeholder="Write a To Do and Press Enter" required>
+            </form>
+            <ul id="todo-list">
+            </ul>
+        </div>
         <div id="quote">
             <span></span>
             <span></span>

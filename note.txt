@@ -17,3 +17,36 @@
 4. item을 화면 중간에 배치
 - html, body의 width 또는 height를 100%로 설정하고 margin 또한 0으로 설정한다.
 - 중간에 배치하고자 하는 item의 width 또는 height를 100%로 설정한다.
+
+
+
+
+
+document.querySelector()
+.innerText
+.classList.remove()
+.classList.add()
+localStorage.getItem()
+localStorage.setItem()
+.addEventListner( , )
+event.preventDefault
+.value
+new Date()
+.padStart( , )
+setInterval( , )
+Math.floor()
+Math.random() * .length
+document.createElement()
+document.body.appendChild()
+event.target.parentElement
+=> see which element exactly
+.remove()
+
+JSON.stringify()
+JSON.parse()
+.forEach()
+
+.filter(func)
+=> create new array with elements that returns true in func function
+parseInt(datatype other than int)
+fetch()
