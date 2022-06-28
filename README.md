@@ -18,5 +18,5 @@ Vanilla JavaScript를 연습하기 위해 크롬 브라우저의 유명 extensio
   - 날씨 API
 
 ## Summary
-이 프로젝트를 통해서 JavaScript를 HTML과 연결하여 사용하는 것 뿐만 아니라 JSON, 다양한 Web API, 날씨 외부 API를 연동하여
+이 프로젝트를 통해서 JavaScript를 HTML과 연결하여 사용하는 것뿐만 아니라 JSON, 다양한 Web API, 날씨 외부 API를 연동하여
 사용하는 방법 등을 배웠습니다. 그리고 무엇보다 프론트엔드 개발자의 thinking process를 배우게 되어 좋았습니다.
